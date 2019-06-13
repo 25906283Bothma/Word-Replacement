@@ -1,0 +1,27 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>ITRW316-WordReplacement</Name>
+    <ProjectGuid>{bf12fbf6-c426-434c-8ad1-578106025b62}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="action.txt" />
+    <Compile Include="allow.php" />
+    <Compile Include="disallow.php" />
+    <Compile Include="index.php" />
+    <Compile Include="ITRW316-WordReplacement.phpproj" />
+    <Compile Include="ITRW316-WordReplacement.sln" />
+    <Compile Include="msghistory.txt" />
+    <Compile Include="word.txt" />
+  </ItemGroup>
+</Project>
